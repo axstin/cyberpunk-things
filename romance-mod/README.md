@@ -3,13 +3,15 @@ In theory, this mod should allow you to romance any of the 4 romanceable charact
 
 ## Usage
 
-#### Python
+There are three methods that can be used to apply the mod:
+
+#### Python Script
 Run `python romance_patch.py <path_to_cyberpunk.exe>`
 
-#### Manual
+#### Manual Method
 Search for the signature `40 53 48 83 EC 20 48 8B 01 48 8B D9 FF 90 18 01 00 00` in Cyberpunk2077.exe with your favorite hex editor. There should be two results; replace the first 3 bytes of each with `B0 01 C3`.
 
-#### CyberEngineTweaks
+#### Using CyberEngineTweaks
 Install [CyberEngineTweaks](https://github.com/yamashi/CyberEngineTweaks) and run the following:
 
 ```lua
